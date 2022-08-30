@@ -8,8 +8,8 @@ import HelloWorld from './components/HelloWorld.vue';
     <nav>
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/cpu">CPU</RouterLink>
+      <RouterLink to="/cpu-worker">Worker Threads</RouterLink>
       <RouterLink to="/gpu">GPU</RouterLink>
-      <RouterLink to="/cpu-worker">CPU with Worker</RouterLink>
     </nav>
   </header>
 
@@ -21,8 +21,8 @@ header{
 
   nav{
     display flex
-    
-    
+
+
   }
 
 }
