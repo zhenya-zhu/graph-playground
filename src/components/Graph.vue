@@ -39,12 +39,17 @@ export default {
 
       const graph = new G6.Graph({
         ...this.config,
-        width: 1000,
+        width: 2000,
         height: 1000,
       });
       this.graph = graph;
       console.log(graph);
       console.log(graphData);
+      graph.edge((edge) => {
+        return {
+          label: '' + edge.weight.toFixed(2),
+        };
+      });
       graph.data(graphData);
       graph.render();
     },
