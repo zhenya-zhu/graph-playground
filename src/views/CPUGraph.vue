@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an graph rendered by CPU</h1>
+    <h1>This is a graph rendered by CPU</h1>
     <Graph :config="graphConfig" />
   </div>
 </template>

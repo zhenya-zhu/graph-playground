@@ -6,8 +6,7 @@ import HelloWorld from './components/HelloWorld.vue';
 <template>
   <header>
     <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/cpu">CPU</RouterLink>
+      <RouterLink to="/">CPU</RouterLink>
       <RouterLink to="/cpu-worker">Worker Threads</RouterLink>
       <RouterLink to="/gpu">GPU</RouterLink>
     </nav>

@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an graph rendered by GPU</h1>
+    <h1>This is a graph rendered by GPU</h1>
     <Graph :config="graphConfig" />
   </div>
 </template>
